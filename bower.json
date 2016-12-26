@@ -8,6 +8,7 @@
   "main": "index.html",
   "license": "MIT",
   "private": false,
+  "version": "16.12",
   "ignore": [
     "**/.*",
     "node_modules",
@@ -17,9 +18,9 @@
   ],
   "dependencies": {
     "owl.carousel": "^2.2.0",
-    "isotope": "^3.0.1",
     "font-awesome": "^4.7.0",
     "bootstrap": "boostrap#^3.3.7",
-    "jquery": "^3.1.1"
+    "jquery": "^3.1.1",
+    "isotope": "^3.0.1"
   }
 }
