@@ -7,7 +7,7 @@
   "description": "Tulipe is a package front-end beautifull option for developer",
   "main": "index.html",
   "license": "MIT",
-  "private": true,
+  "private": false,
   "ignore": [
     "**/.*",
     "node_modules",
