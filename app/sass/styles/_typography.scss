@@ -1,0 +1,86 @@
+/*Import general*/
+
+@import "../general/variables";
+@import "../general/mediamixin";
+@import "../general/mixins";
+
+
+/* Super link */
+
+a {
+
+  &:visited {
+
+  }
+  &:hover {
+
+  }
+  &:active {
+    /*Clicked*/
+  }
+}
+
+
+/* Heading */
+h1, h2, h3, h4 {
+
+}
+
+h1 {
+
+}
+
+h2 {
+
+}
+
+h3 {
+
+}
+
+h4 {
+
+}
+
+small {
+
+}
+
+/* Paragraph */
+
+p {
+
+}
+
+blockquote {
+
+}
+
+span {
+
+}
+
+/* List */
+
+ul {
+  li {
+
+  }
+}
+
+ol {
+  li {
+
+  }
+}
+
+/* Description */
+
+dl {
+  dt {
+
+  }
+  dd {
+
+  }
+}

@@ -1,0 +1,38 @@
+///*=======================================*/
+///*        MIXINS FOR SCREEN SIZES        */
+///*=======================================*/
+
+@mixin screen_1200 {
+  /* Large Devices, Wide Screens */
+  @media only screen and (max-width : 1200px){
+    @content
+  }
+}
+
+@mixin screen_991 {
+  /* Large Devices, Wide Screens */
+  @media only screen and (max-width : 992px){
+    @content
+  }
+}
+
+@mixin screen_767 {
+  /* Large Devices, Wide Screens */
+  @media only screen and (max-width : 767px){
+    @content
+  }
+}
+
+@mixin screen_479 {
+  /* Large Devices, Wide Screens */
+  @media only screen and (max-width : 479px){
+    @content
+  }
+}
+
+@mixin screen_319 {
+  /* Large Devices, Wide Screens */
+  @media only screen and (max-width : 319px){
+    @content
+  }
+}
