@@ -1,0 +1,22 @@
+{
+  "name": "tulipe",
+  "homepage": "https://github.com/truongngodang/tulipe",
+  "authors": [
+    "ngo dang truong <truongngodang@gmail.com>"
+  ],
+  "description": "Tulipe is a package front-end beautifull option for developer",
+  "main": "index.html",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "owl.carousel": "^2.2.0",
+    "isotope": "^3.0.1"
+  }
+}
