@@ -1,28 +1,44 @@
-/*Import general*/
+.btn {
 
-@import "../general/variables";
-@import "../general/mediamixin";
-@import "../general/mixins";
+  background: $primary-color;
+  border-radius: 0;
+  text-transform: uppercase;
+  font-weight: $bold;
+  border: 2px solid $primary-color;
+  transition: all 0.3s;
 
-.tp-btn {
-
+  &-radius {
+    @include border-radius(50px);
+  }
+  
   &:hover {
-
+    background: $acent-color;
+    border-color: $acent-color;
   }
   &:active {
 
   }
   &-primary {
-
   }
 
   &-small {
 
   }
   &-medium {
-
+    padding: 8px 30px;
   }
   &-large {
 
+  }
+
+  &-border {
+    background: none;
+    border-color: $black;
+
+    &:hover {
+      background: $black;
+      color: $white;
+      border-color: $black;
+    }
   }
 }

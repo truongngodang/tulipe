@@ -1,29 +1,33 @@
-/*Import general*/
-
-@import "../general/variables";
-@import "../general/mediamixin";
-@import "../general/mixins";
+body {
+  font-family: $primary-font;
+  color: $black;
+  font-size: 16px;
+}
 
 
 /* Super link */
 
 a {
-
+  color: $black;
+  font-weight: $bold;
   &:visited {
-
+    color: $acent-color;
   }
   &:hover {
-
+    color: $primary-color;
+    text-decoration: none;
   }
   &:active {
     /*Clicked*/
+    color: $acent-color;
   }
 }
 
 
 /* Heading */
-h1, h2, h3, h4 {
-
+h1, h2, h3, h4, h5, h6 {
+  font-weight: $bold;
+  text-transform: uppercase;
 }
 
 h1 {
@@ -53,7 +57,7 @@ p {
 }
 
 blockquote {
-
+  margin-left: 30px;
 }
 
 span {
@@ -63,6 +67,9 @@ span {
 /* List */
 
 ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
   li {
 
   }

@@ -1,3 +1,8 @@
+/*Import general*/
+
+@import "general/variables";
+@import "general/mediamixin";
+@import "general/mixins";
 
 /*Import style*/
 @import "styles/typography";
@@ -8,3 +13,4 @@
 /*Import partials*/
 @import "partials/header";
 @import "partials/footer";
+@import "partials/element";
