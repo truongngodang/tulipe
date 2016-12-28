@@ -5,7 +5,6 @@
   text-transform: uppercase;
   font-weight: $bold;
   border: 2px solid $primary-color;
-  transition: all 0.3s;
 
   &-radius {
     @include border-radius(50px);
